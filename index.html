@@ -3,275 +3,122 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Jogue mais de 200 jogos no cassino online 9D! Cadastre-se hoje e participe dos sorteios diários às 21h com prêmios em dinheiro. Plataforma segura com bônus exclusivos.">
+  <meta name="description" content="9D cassino online com apostas esportivas, futebol com Neymar, bônus diários às 21h, caça-níqueis e muito mais!">
+  <meta name="keywords" content="9d, 9D, 9d.com, 9dcasino, cassino 9D, apostas 9D, jogar na 9D, cassino online, apostas esportivas, Neymar apostas, futebol online, slots temáticos, jogo do Neymar, apostas com celebridades, site de apostas Brasil, bônus diário cassino, roleta ao vivo, plataforma 9d.com, app cassino online, cassino Neymar futebol">
   <meta name="robots" content="index, follow">
-  <title>9D – Cassino Online com Bônus Diário às 21h 🎰💸</title>
+  <title>9D Cassino Online - Apostas, Futebol, Neymar e Bônus Diário às 21h</title>
 
-  <!-- Open Graph -->
-  <meta property="og:title" content="9D – Cassino Online com Bônus Diário às 21h">
-  <meta property="og:description" content="Participe dos sorteios diários às 21h com bônus exclusivos. +200 jogos de cassino online.">
-  <meta property="og:image" content="https://samngjjj.github.io/images/cassino-9d-banner-principal.jpg">
+  <!-- Open Graph para compartilhamento -->
+  <meta property="og:title" content="9D Cassino Online com Bônus e Apostas Esportivas">
+  <meta property="og:description" content="Jogue com Neymar, participe de apostas esportivas e concorra a bônus diários no cassino online 9D.">
+  <meta property="og:image" content="https://samngjjj.github.io/img/cassino-9d-banner-principal.jpg">
   <meta property="og:url" content="https://samngjjj.github.io/">
   <meta property="og:type" content="website">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
   <style>
     body {
       margin: 0;
-      font-family: 'Roboto', sans-serif;
-      background-color: #1a1a1a;
+      font-family: Arial, sans-serif;
+      background-color: #0e0e0e;
       color: #fff;
-      line-height: 1.6;
     }
     header, footer {
-      background-color: #0047AB; /* Brazilian blue */
-      padding: 1.5rem 2rem;
+      background-color: #111;
+      padding: 1rem 2rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
     }
-    header a, footer a {
-      color: #FFCC00; /* Brazilian yellow */
+    a {
+      color: #ffd700;
       text-decoration: none;
-      margin-left: 1.5rem;
-      font-weight: 500;
-      transition: color 0.3s ease;
+      margin-left: 1rem;
     }
-    header a:hover, footer a:hover {
-      color: #00A859; /* Brazilian green */
+    .btn {
+      background-color: #ffd700;
+      color: #111;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      font-weight: bold;
     }
     .hero {
       text-align: center;
-      padding: 4rem 1rem;
-      background: linear-gradient(135deg, #00A859, #0047AB); /* Brazilian green to blue */
-      position: relative;
-      overflow: hidden;
-    }
-    .hero::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: url('images/cassino-9d-banner-principal.jpg') center/cover no-repeat;
-      opacity: 0.2;
-      z-index: 0;
-    }
-    .hero img {
-      max-width: 100%;
-      height: auto;
-      border-radius: 12px;
-      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-      position: relative;
-      z-index: 1;
+      padding: 2rem;
+      background-image: url('img/cassino-9d-banner-principal.jpg');
+      background-size: cover;
+      background-position: center;
     }
     .hero h1 {
-      font-family: 'Montserrat', sans-serif;
-      font-size: 3rem;
-      color: #FFCC00;
-      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-      margin: 1rem 0;
-      position: relative;
-      z-index: 1;
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
     }
     .hero p {
-      font-size: 1.3rem;
-      max-width: 600px;
-      margin: 1rem auto 2rem;
-      position: relative;
-      z-index: 1;
-    }
-    .btn {
-      background: linear-gradient(90deg, #FFCC00, #ff9900);
-      color: #1a1a1a;
-      padding: 1rem 2.5rem;
-      font-family: 'Montserrat', sans-serif;
-      font-weight: bold;
-      border-radius: 50px;
-      text-decoration: none;
-      display: inline-block;
-      transition: transform 0.2s ease, box-shadow 0.2s ease;
-      position: relative;
-      z-index: 1;
-    }
-    .btn:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 5px 15px rgba(255, 204, 0, 0.5);
-    }
-    .section {
-      max-width: 1100px;
-      margin: auto;
-      padding: 3rem 1rem;
-    }
-    .features {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 2rem;
-    }
-    .feature {
-      background: #222;
-      padding: 2rem;
-      border-radius: 12px;
-      transition: transform 0.3s ease, box-shadow 0.3s ease;
-    }
-    .feature:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 5px 15px rgba(0, 168, 89, 0.4);
-    }
-    .feature h3 {
-      font-family: 'Montserrat', sans-serif;
-      color: #FFCC00;
-      font-size: 1.5rem;
-    }
-    .faq h3 {
-      font-family: 'Montserrat', sans-serif;
-      color: #FFCC00;
-      font-size: 1.4rem;
-    }
-    .faq p {
+      font-size: 1.2rem;
       margin-bottom: 2rem;
     }
-    blockquote {
-      background: #222;
-      padding: 1.5rem;
-      margin: 1.5rem 0;
-      border-left: 6px solid #00A859;
-      border-radius: 8px;
-      font-style: italic;
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: auto;
     }
-    @media (max-width: 768px) {
-      .hero h1 {
-        font-size: 2rem;
-      }
-      .hero p {
-        font-size: 1rem;
-      }
-      .btn {
-        padding: 0.8rem 2rem;
-      }
-      .section {
-        padding: 2rem 1rem;
-      }
-      .feature {
-        padding: 1.5rem;
-      }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+    .feature {
+      flex: 1 1 45%;
+      background-color: #1a1a1a;
+      padding: 1rem;
+      border-radius: 10px;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
     }
   </style>
 </head>
 <body>
 
 <header>
-  <a href="https://9d.bet.br/br/web/">
-    <img src="images/9d-logo-oficial.png" alt="9D Logo" style="height: 50px;">
-  </a>
+  <div><img src="img/9d-logo-oficial.png" alt="Logo 9D" width="120" onclick="window.location.href='https://9d.bet.br/br/web/'"></div>
   <nav>
     <a href="https://9d.bet.br/br/web/">Login</a>
-    <a href="https://9d.bet.br/br/web/" class="btn">Cadastrar-se</a>
+    <a class="btn" href="https://9d.bet.br/br/web/">Cadastrar-se</a>
   </nav>
 </header>
 
-<main>
-  <section class="hero">
-    <a href="https://9d.bet.br/br/web/">
-      <img src="images/cassino-9d-banner-principal.jpg" alt="Banner Principal 9D">
-    </a>
-    <h1>Ganhe Todos os Dias às 21h 💸</h1>
-    <p>Cadastre-se e concorra a prêmios diários! Jogue com segurança, aproveite bônus exclusivos e mais de 200 jogos emocionantes.</p>
-    <a href="https://9d.bet.br/br/web/" class="btn">🎁 Cadastre-se Agora</a>
-  </section>
+<section class="hero">
+  <h1>Bem-vindo ao Cassino Online 9D</h1>
+  <p>Participe das apostas esportivas com Neymar, ganhe bônus diários às 21h, e jogue os melhores slots!</p>
+  <a class="btn" href="https://9d.bet.br/br/web/">Cadastre-se Agora</a>
+</section>
 
-  <section class="section">
-    <h2>Por que escolher a 9D?</h2>
-    <div class="features">
-      <div class="feature">
-        <a href="https://9d.bet.br/br/web/">
-          <img src="images/bonus-9d-promocao-diaria.jpg" alt="Bônus Diário" style="width:100%; border-radius:8px;">
-        </a>
-        <h3>🔒 Segurança Bancária</h3>
-        <p>Proteção com criptografia SSL e sistemas antifraude para sua tranquilidade.</p>
-      </div>
-      <div class="feature">
-        <a href="https://9d.bet.br/br/web/">
-          <img src="images/slots-jogos-9d-cassino.jpg" alt="Jogos de Slots 9D" style="width:100%; border-radius:8px;">
-        </a>
-        <h3>🎮 +200 Jogos</h3>
-        <p>Incluindo slots, roleta ao vivo, jogos temáticos e apostas esportivas!</p>
-      </div>
+<section class="section">
+  <h2>Destaques do 9D</h2>
+  <div class="features">
+    <div class="feature">
+      <h3>+200 Jogos</h3>
+      <p>Incluindo slots temáticos, roleta ao vivo, futebol e muito mais.</p>
+      <img src="img/slots-jogos-9d-cassino.jpg" alt="Jogos do 9D" onclick="window.location.href='https://9d.bet.br/br/web/'">
     </div>
-  </section>
-
-  <section class="section faq">
-    <h2>❓ Perguntas Frequentes</h2>
-    <h3><a href="https://9d.bet.br/br/web/">Como funciona o sorteio das 21h?</a></h3>
-    <p>Todos os usuários cadastrados participam automaticamente. Os ganhadores recebem bônus direto na conta.</p>
-
-    <h3><a href="https://9d.bet.br/br/web/">O 9D é legal no Brasil?</a></h3>
-    <p>Sim! Operamos sob regulamentação internacional de jogos online.</p>
-
-    <h3><a href="https://9d.bet.br/br/web/">O que preciso para começar?</a></h3>
-    <p>Apenas um cadastro rápido e gratuito. Após isso, você já pode apostar e ganhar!</p>
-  </section>
-
-  <section class="section">
-    <h2>📢 Depoimentos de Jogadores</h2>
-    <blockquote>
-      <a href="https://9d.bet.br/br/web/">"Ganhei R$200 só com o sorteio das 21h! Nunca pensei que fosse tão fácil."</a>
-    </blockquote>
-    <blockquote>
-      <a href="https://9d.bet.br/br/web/">"Os slots são incríveis e a plataforma é super rápida até no celular."</a>
-    </blockquote>
-    <blockquote>
-      <a href="https://9d.bet.br/br/web/">"Suporte nota 10. Atendimento via chat resolveu meu saque em minutos."</a>
-    </blockquote>
-  </section>
-</main>
+    <div class="feature">
+      <h3>Bônus Diário às 21h</h3>
+      <p>Todos os dias, jogadores cadastrados concorrem a prêmios em dinheiro.</p>
+      <img src="img/bonus-9d-promocao-diaria.jpg" alt="Bônus 9D" onclick="window.location.href='https://9d.bet.br/br/web/'">
+    </div>
+  </div>
+</section>
 
 <footer>
-  <div>© 2025 9D Cassino. Todos os direitos reservados.</div>
+  <div>© 2025 9D. Todos os direitos reservados.</div>
   <div>
-    <a href="#">Termos de Uso</a> | 
-    <a href="#">Política de Privacidade</a> | 
+    <a href="#">Política de Privacidade</a> |
+    <a href="#">Termos de Uso</a> |
     <strong>18+</strong> Jogue com responsabilidade
   </div>
 </footer>
-
-<!-- ✅ FAQ 結構化資料 -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "Como funciona o sorteio das 21h?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Todos os usuários cadastrados participam automaticamente. Os ganhadores recebem bônus direto na conta."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "O 9D é legal no Brasil?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Sim! Operamos sob regulamentação internacional de jogos online."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "O que preciso para começar?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Apenas um cadastro rápido e gratuito. Após isso, você já pode apostar e ganhar!"
-      }
-    }
-  ]
-}
-</script>
 
 </body>
 </html>
