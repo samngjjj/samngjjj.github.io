@@ -1,4 +1,0 @@
-User-agent: *
-Disallow:
-
-Sitemap: https://samngjjj.github.io/sitemap.xml
